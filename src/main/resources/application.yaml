@@ -1,0 +1,16 @@
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        security:
+          ldap: trace
+
+#spring:
+#  ldap:
+#    # Bind user's DN
+#    username: uid=bind-user,cn=users,cn=accounts,dc=acme,dc=corporation,dc=com
+#    password: bind-!user-pa$$w0rd
+#    base: cn=accounts,dc=acme,dc=corporation,dc=com
+#    urls:
+#      - ldaps://ldap.lab.arpa:636
